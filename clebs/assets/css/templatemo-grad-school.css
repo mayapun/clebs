@@ -172,13 +172,17 @@ a.menu-link { display: none; }
     width: 100%;
     top: 0;
 }
-
+img {
+  height: 70px;
+  /* margin: 2px; */
+  vertical-align: middle;
+}
 .main-header .logo {
     float: left;
     line-height: 80px;
     padding-left: 60px;
-}
-
+} 
+ 
 .main-header .logo a {
     font-size: 36px;
     text-transform: uppercase;
@@ -188,8 +192,7 @@ a.menu-link { display: none; }
 .main-header .logo a em {
     font-style: normal;
     color: #f5a425;
-}
-
+} 
 .main-menu {
     float: right;
     padding-right: 60px;
