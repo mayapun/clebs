@@ -893,7 +893,7 @@ section.courses .owl-carousel button.active {
 
 /* Video */
 
-section.video {bottom
+section.video {
     background-image: url(../images/video-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -972,7 +972,7 @@ section.video .left-content .main-button {
 }
 .video-item figure a:after {
   content: '';
-  position: absolute;bottom
+  position: absolute;
   border-left-color: #fff;
   z-index: 10;
 }
@@ -982,7 +982,8 @@ section.video .left-content .main-button {
 
 .video-item .video-caption {
     position: absolute;
-    z-index: 10;initial
+    z-index: 10;
+}
 
 .mfp-align-top .mfp-container:before {
   display: none;
