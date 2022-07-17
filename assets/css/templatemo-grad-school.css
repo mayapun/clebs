@@ -937,6 +937,9 @@ section.video .left-content .main-button {
 }
 
 @media screen and (max-width: 767px) {
+  .logo a {
+    font-size: 8px;
+  }
 
   section.video .left-content {
     margin-bottom: 45px;
